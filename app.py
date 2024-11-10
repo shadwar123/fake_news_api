@@ -26,7 +26,7 @@ class ModelInput:
 # Load model and tokenizer
 try:
     loaded_model = load_model('your_model.h5')  # Ensure 'your_model.h5' is in the project directory on Render
-    loaded_tokenizer = pickle.load(open('tokenizer.sav', 'rb'))  # Ensure 'tokenizer.sav' is in the project directory on Render
+    loaded_tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))  # Ensure 'tokenizer.sav' is in the project directory on Render
 except Exception as e:
     print(f"Error loading model or tokenizer: {e}")
 
