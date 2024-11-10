@@ -4,4 +4,3 @@ tensorflow
 numpy
 Flask-Cors
 pillow
-os
