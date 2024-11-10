@@ -47,3 +47,5 @@ def news_pred():
 @app.route("/")
 def func():
     return "shadwar" 
+if __name__=="__main__":
+    app.run(debug=True)
